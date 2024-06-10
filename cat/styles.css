@@ -39,18 +39,16 @@
     text-transform: uppercase;
     margin-top: 50px;
     padding: 30px;
-
 }
 
 .heroSection div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 35px;
     padding: 0 48px;
 }
 
 .heroSection img {
-    height: 300px;
+    height: 500px;
 }
  
 .showroom {
@@ -61,6 +59,18 @@
     margin-top: 50px;
     padding: 30px;
 } 
+
+.showroom h3 {
+    padding: 30px;
+}
+
+.showroom p {
+    text-transform: lowercase;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
 
  .catContainer{
     display: grid;
